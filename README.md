@@ -1,2 +1,3 @@
-# simclr-cifar10-ssl-transfer
-Self-supervised learning on CIFAR-10 using SimCLR. This project demonstrates contrastive pretraining, embedding extraction, and transfer learning with a linear classifier.
+# SimCLR on CIFAR-10: Self-Supervised Learning and Transfer Learning
+
+This repository implements a full pipeline for self-supervised pretraining using SimCLR on the CIFAR-10 dataset. The model is trained without labels to learn useful image embeddings and is later fine-tuned (or linearly probed) for image classification.
